@@ -1,0 +1,83 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://dataservice.accuweather.com/currentconditions/v1/293686/historical/24?apikey=CcxeOCn3PG4FYulD9lgHkryld4WD1oVv
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - rest-client/2.1.0 (mingw32 x64) ruby/3.0.3p157
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - dataservice.accuweather.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 11 Jan 2022 17:17:04 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - public, max-age=600
+      Expires:
+      - Tue, 11 Jan 2022 17:27:03 GMT
+      Vary:
+      - Accept-Encoding
+      Ratelimit-Limit:
+      - '50'
+      Ratelimit-Remaining:
+      - '44'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - origin, x-requested-with, accept
+      Access-Control-Max-Age:
+      - '3628800'
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - deflate;q=0.6
+      - gzip;q=1.0
+      - identity;q=0.3
+      Host:
+      - accuweather-api.trafficmanager.net
+      User-Agent:
+      - rest-client/2.1.0 (mingw32 x64) ruby/3.0.3p157
+      X-Forwarded-For:
+      - 85.174.206.169
+      X-Forwarded-Port:
+      - '80'
+      X-Forwarded-Proto:
+      - http
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"LocalObservationDateTime":"2022-01-11T19:58:00+03:00","EpochTime":1641920280,"WeatherText":"Some
+        clouds","WeatherIcon":36,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":9.2,"Unit":"C","UnitType":17},"Imperial":{"Value":49.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-11T18:58:00+03:00","EpochTime":1641916680,"WeatherText":"Some
+        clouds","WeatherIcon":36,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":10.5,"Unit":"C","UnitType":17},"Imperial":{"Value":51.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-11T17:58:00+03:00","EpochTime":1641913080,"WeatherText":"Some
+        clouds","WeatherIcon":36,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":11.3,"Unit":"C","UnitType":17},"Imperial":{"Value":52.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-11T16:57:00+03:00","EpochTime":1641909420,"WeatherText":"Clouds
+        and sun","WeatherIcon":4,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":12.2,"Unit":"C","UnitType":17},"Imperial":{"Value":54.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-11T15:58:00+03:00","EpochTime":1641905880,"WeatherText":"Partly
+        sunny","WeatherIcon":3,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":12.7,"Unit":"C","UnitType":17},"Imperial":{"Value":55.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-11T14:57:00+03:00","EpochTime":1641902220,"WeatherText":"Partly
+        sunny","WeatherIcon":3,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":12.5,"Unit":"C","UnitType":17},"Imperial":{"Value":55.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-11T14:03:00+03:00","EpochTime":1641898980,"WeatherText":"Partly
+        sunny","WeatherIcon":3,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":12.5,"Unit":"C","UnitType":17},"Imperial":{"Value":55.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-11T13:04:00+03:00","EpochTime":1641895440,"WeatherText":"Clouds
+        and sun","WeatherIcon":4,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":11.6,"Unit":"C","UnitType":17},"Imperial":{"Value":53.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-11T11:57:00+03:00","EpochTime":1641891420,"WeatherText":"Clouds
+        and sun","WeatherIcon":4,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":9.1,"Unit":"C","UnitType":17},"Imperial":{"Value":48.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-11T10:57:00+03:00","EpochTime":1641887820,"WeatherText":"Mostly
+        cloudy","WeatherIcon":6,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":7.8,"Unit":"C","UnitType":17},"Imperial":{"Value":46.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-11T09:57:00+03:00","EpochTime":1641884220,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":7.1,"Unit":"C","UnitType":17},"Imperial":{"Value":45.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-11T08:57:00+03:00","EpochTime":1641880620,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":5.4,"Unit":"C","UnitType":17},"Imperial":{"Value":42.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-11T07:57:00+03:00","EpochTime":1641877020,"WeatherText":"A
+        shower","WeatherIcon":12,"HasPrecipitation":true,"PrecipitationType":"Rain","IsDayTime":false,"Temperature":{"Metric":{"Value":5.8,"Unit":"C","UnitType":17},"Imperial":{"Value":43.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-11T06:58:00+03:00","EpochTime":1641873480,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":5.6,"Unit":"C","UnitType":17},"Imperial":{"Value":42.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-11T05:57:00+03:00","EpochTime":1641869820,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":4.0,"Unit":"C","UnitType":17},"Imperial":{"Value":39.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-11T04:57:00+03:00","EpochTime":1641866220,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":6.1,"Unit":"C","UnitType":17},"Imperial":{"Value":43.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-11T03:58:00+03:00","EpochTime":1641862680,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":7.0,"Unit":"C","UnitType":17},"Imperial":{"Value":45.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-11T02:57:00+03:00","EpochTime":1641859020,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":5.8,"Unit":"C","UnitType":17},"Imperial":{"Value":42.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-11T02:03:00+03:00","EpochTime":1641855780,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":5.8,"Unit":"C","UnitType":17},"Imperial":{"Value":42.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-11T00:57:00+03:00","EpochTime":1641851820,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":6.4,"Unit":"C","UnitType":17},"Imperial":{"Value":44.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-10T23:58:00+03:00","EpochTime":1641848280,"WeatherText":"A
+        shower","WeatherIcon":12,"HasPrecipitation":true,"PrecipitationType":"Rain","IsDayTime":false,"Temperature":{"Metric":{"Value":5.9,"Unit":"C","UnitType":17},"Imperial":{"Value":43.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-10T23:03:00+03:00","EpochTime":1641844980,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":5.9,"Unit":"C","UnitType":17},"Imperial":{"Value":43.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-10T21:58:00+03:00","EpochTime":1641841080,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":6.2,"Unit":"C","UnitType":17},"Imperial":{"Value":43.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"},{"LocalObservationDateTime":"2022-01-10T20:57:00+03:00","EpochTime":1641837420,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":5.6,"Unit":"C","UnitType":17},"Imperial":{"Value":42.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us","Link":"http://www.accuweather.com/en/ru/krasnodar/293686/current-weather/293686?lang=en-us"}]'
+  recorded_at: Tue, 11 Jan 2022 17:17:01 GMT
+recorded_with: VCR 6.0.0
